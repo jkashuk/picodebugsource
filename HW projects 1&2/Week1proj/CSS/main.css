@@ -1,0 +1,98 @@
+/*To Format the ENTIRE BODY*/
+body {
+	 background-color: #AEAEAE
+	 margin:0;
+}
+
+/*To Format the side wrap of the site (Grey Margins)*/
+.wrapper{
+	 margin:0 auto;
+	 width: 100%;
+}
+
+/*To format the Header - Color(Light Gray) & Location*/
+.header{
+background-color:#E7E5E6;
+padding: 30px;
+}
+
+/*Formatting the Header Cont'd (Color Dark Gray Box, Font Size,)  */
+/*Question to Ask... WHY put a "." infront of "header, logo, etc (Format the logo inside the header?)  */
+.header .logo {
+	background-color: #AEAEAE;
+	display: inline-block;
+	font-size: 50px;
+	padding: 15px 50px;
+	text-transform: uppercase;
+}
+
+/*Navi*/
+.navigation{
+	background-color: #A5A3A4;
+}
+
+/*Formatting the "Link" transforming to look like NAV BAR*/
+.navigation ul	{
+	margin: 0;
+	padding-left: 0;
+} 
+
+.navigation li {
+	display: inline-block;
+	padding: 15px 25px;
+}
+
+.navigation a {
+	color:#fff;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+
+/*Formatting the Main Body Paragraph*/
+.main {
+	background-color:#F3EFF0;
+	float: left;
+	height: 600px;
+	width:70%;
+}
+
+/*format Heading in Body*/
+.main h1{
+	padding: 35px;
+}
+/*How to remove Extra spaces from site??*/
+.main p {
+	padding: 5px 35px;
+}
+
+/*Formatting the SideBar - First move to Right and color*/
+.sidebar {
+	background-color: #CECCCD;
+	float:left;
+	height:600px;
+	width: 20%;
+}
+ß
+.sidebar h2	{
+	padding-left:40px;
+}
+
+/*Completing the Footer portion*/
+.footer {
+	clear: both;
+	background-color: #514F50;
+	font-size: 14px;
+	padding: 9px 0;
+}
+
+.footer p {
+	margin: 0;
+	color: #FFFFFF;
+	padding-left: 35px;
+}
+
+
+
+
+
+
